@@ -31,6 +31,7 @@ img {
     flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
+    margin-top: 10px;
 }
 
 .row > * {
@@ -151,4 +152,10 @@ header {
 }
 .card:hover .card-image-default {
     display: none;
+}
+
+.card .cuore-nero{
+    position: absolute;
+    top: 0;
+    right:0
 }
