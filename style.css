@@ -160,6 +160,11 @@ header {
     right:0
 }
 
+.card:hover .cuore-nero{
+    display: block;
+    color: red;
+}
+
 .txt-red{
     color: red;
 }
