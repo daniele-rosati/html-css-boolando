@@ -70,3 +70,37 @@ img {
 .col-grow {
     flex-grow: 1;
 }
+
+/*--- header --- */
+
+header {
+    background-color: rgb(216, 97, 0);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.header-top {
+    padding: 16px 0;
+}
+
+.header-top .row {
+    align-items: center;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.main-nav li {
+    padding: 0 15px;
+}
+.main-nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+.header-top .sezioni {
+    text-align: right;
+}
+
+/*--- fin header --- */
