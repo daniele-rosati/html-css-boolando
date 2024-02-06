@@ -48,7 +48,7 @@ img {
     width: 30%;
 }
 .col-33 {
-    width: calc(100% / 3);
+    width: calc(100% / 6);
 }
 .col-40 {
     width: 40%;
