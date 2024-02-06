@@ -101,6 +101,54 @@ header {
 }
 .header-top .sezioni {
     text-align: right;
+  
 }
 
 /*--- fin header --- */
+
+/*-------------------
+    CARD
+-------------------*/
+.card {
+    position: relative;
+}
+.card img {
+    width: 100%;
+}
+.card .discount {
+    position: absolute;
+    top: 340px;
+    right: auto;
+    color: #fff;
+}
+
+.discount .sconto{
+    background-color: red;
+}
+
+.discount .sostenibilità{
+    background-color: green;
+}
+
+.card .like {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.card:hover .like {
+    display: block;
+}
+
+.card .card-image-hover {
+    display: none;
+}
+
+.card:hover .card-image-hover {
+    display: block;
+}
+.card:hover .card-image-default {
+    display: none;
+}
